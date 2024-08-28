@@ -13,8 +13,8 @@ header h1 {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-right: 165px;
   height: 100%;
+  padding-right: 310px;
 }
 
 header.navigation-links {
