@@ -1,19 +1,14 @@
-.video-background {
+.video-container {
   position: relative;
-  height: 100%;
+  height: 850px; /*video yüksekliği*/
   width: 100%;
+  overflow: hidden;
 }
 
-#video {
-  position: absolute;
-  top: 50%;
-  left: 50%;
+.background-video {
   width: 100%;
-  height: 1300px;
-
-  transform: translate(-50%, -50%);
+  height: 100%;
   object-fit: cover;
-  z-index: -1;
 }
 .content {
   position: relative;
@@ -24,4 +19,52 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+.categories {
+  position: relative;
+  width: 250px;
+}
+
+.categories ul {
+  list-style-type: none; /* Liste stilini kaldır */
+  padding: 0;
+  margin: 0;
+  width: 200px; /*menü gemişligi*/
+  background-color: none; /* Menü arka plan rengi */
+}
+
+.categories ul li {
+  border-bottom: gold; /* Menü elemanları arasındaki çizgi */
+}
+
+.categories ul li a {
+  display: block;
+  color: black; /* Yazı rengi */
+  padding: 12px; /* Elemanlar arası boşluk */
+  text-decoration: none; /* Alt çizgi kaldır */
+}
+
+.categories ul li a:hover {
+  background-color: #575757; /* Fare üzerine gelince renk değişikliği */
+}
+.products {
+  display: flex; /* Flexbox kullanarak hizalama */
+  flex-wrap: wrap; /* Resimlerin birden fazla satıra geçmesini sağlar */
+  gap: 10px; /* Resimler arasına boşluk ekler */
+  justify-content: center; /* Resimleri ortalar */
+}
+
+.one {
+  width: 400px;
+  height: 400px;
+  display: block; /* Görüntü öğesini blok seviyesinde eleman yapar */
+  margin: 20px auto; /* Ortada hizalama */
+  max-width: 100%; /* Görüntünün taşmasını önler */
+}
+.two {
+  height: 400px;
+  width: 400px;
+  display: block; /* Görüntü öğesini blok seviyesinde eleman yapar */
+  margin: 20px auto; /* Ortada hizalama */
+  max-width: 100%; /* Görüntünün taşmasını önler */
 }
