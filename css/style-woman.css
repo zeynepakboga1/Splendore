@@ -22,7 +22,8 @@
 }
 .categories {
   position: relative;
-  width: 250px;
+  width: 200px;
+  float: left;
 }
 
 .categories ul {
@@ -57,13 +58,6 @@
 .one {
   width: 400px;
   height: 400px;
-  display: block; /* Görüntü öğesini blok seviyesinde eleman yapar */
-  margin: 20px auto; /* Ortada hizalama */
-  max-width: 100%; /* Görüntünün taşmasını önler */
-}
-.two {
-  height: 400px;
-  width: 400px;
   display: block; /* Görüntü öğesini blok seviyesinde eleman yapar */
   margin: 20px auto; /* Ortada hizalama */
   max-width: 100%; /* Görüntünün taşmasını önler */
