@@ -43,4 +43,5 @@ header .buttons {
   display: flex;
   float: right;
   align-items: center;
+  font-size: 16px;
 }

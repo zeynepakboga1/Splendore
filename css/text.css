@@ -19,3 +19,11 @@ body header p {
   max-width: 100px;
   float: right;
 }
+a {
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 100px;
+  float: right;
+}

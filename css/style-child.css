@@ -1,0 +1,25 @@
+.video-container-child {
+  position: relative;
+  height: 600px; /*video yüksekliği*/
+  width: 100%;
+  overflow: hidden;
+}
+
+.background-video-child {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.products-child {
+  display: flex; /* Flexbox kullanarak hizalama */
+  flex-wrap: wrap; /* Resimlerin birden fazla satıra geçmesini sağlar */
+  gap: 15px; /* Resimler arasına boşluk ekler */
+  justify-content: center; /* Resimleri ortalar */
+}
+.three {
+  width: 400px;
+  height: 400px;
+  display: block; /* Görüntü öğesini blok seviyesinde eleman yapar */
+  margin: 20px auto; /* Ortada hizalama */
+  max-width: 100%; /* Görüntünün taşmasını önler */
+}

@@ -2,10 +2,10 @@ header .buttons {
   display: flex;
   float: right;
   align-items: center;
+  margin-right: 50px;
 }
-.user-navigation-buttons {
-  display: flex;
-  float: right;
-  align-items: center;
-  width: 40px;
+header .buttons button {
+  background-color: rgba(0, 0, 0, 0);
+  border-color: rgba(0, 0, 0, 0);
+  margin: 10px;
 }

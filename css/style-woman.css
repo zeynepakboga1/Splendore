@@ -20,34 +20,6 @@
   left: 50%;
   transform: translate(-50%, -50%);
 }
-.categories {
-  position: relative;
-  width: 200px;
-  float: left;
-}
-
-.categories ul {
-  list-style-type: none; /* Liste stilini kaldır */
-  padding: 0;
-  margin: 0;
-  width: 200px; /*menü gemişligi*/
-  background-color: none; /* Menü arka plan rengi */
-}
-
-.categories ul li {
-  border-bottom: gold; /* Menü elemanları arasındaki çizgi */
-}
-
-.categories ul li a {
-  display: block;
-  color: black; /* Yazı rengi */
-  padding: 12px; /* Elemanlar arası boşluk */
-  text-decoration: none; /* Alt çizgi kaldır */
-}
-
-.categories ul li a:hover {
-  background-color: #575757; /* Fare üzerine gelince renk değişikliği */
-}
 .products {
   display: flex; /* Flexbox kullanarak hizalama */
   flex-wrap: wrap; /* Resimlerin birden fazla satıra geçmesini sağlar */
@@ -61,4 +33,16 @@
   display: block; /* Görüntü öğesini blok seviyesinde eleman yapar */
   margin: 20px auto; /* Ortada hizalama */
   max-width: 100%; /* Görüntünün taşmasını önler */
+}
+.form {
+  height: 400px;
+  width: 100%;
+  position: relative;
+  margin: auto;
+  padding-top: 180px;
+}
+#user {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

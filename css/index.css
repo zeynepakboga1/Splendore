@@ -1,0 +1,17 @@
+.posters {
+  width: 100%;
+  height: 100%;
+  display: flex; /* Flexbox kullanarak hizalama */
+  flex-wrap: wrap; /* Resimlerin birden fazla satıra geçmesini sağlar */
+  gap: 10px; /* Resimler arasına boşluk ektalar*/
+  justify-content: center; /* Resimleri or*/
+}
+.main-menu {
+  width: 490px;
+  height: 600px;
+  float: right;
+  display: flex; /* Flexbox kullanarak hizalama */
+  flex-wrap: wrap; /* Resimlerin birden fazla satıra geçmesini sağlar */
+
+  justify-content: center; /* Resimleri ortalar */
+}

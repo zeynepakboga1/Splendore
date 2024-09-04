@@ -1,0 +1,29 @@
+.categories {
+  position: relative;
+  width: 200px;
+  float: left;
+}
+
+.categories ul {
+  list-style-type: none; /* Liste stilini kaldır */
+  padding: 0;
+  margin: 0;
+  width: 200px; /*menü gemişligi*/
+  background-color: none; /* Menü arka plan rengi */
+}
+
+.categories ul li {
+  border-bottom: gold; /* Menü elemanları arasındaki çizgi */
+}
+
+.categories ul li a {
+  width: 200px;
+
+  display: block;
+  color: black; /* Yazı rengi */
+  padding: 12px; /* Elemanlar arası boşluk */
+  text-decoration: none; /* Alt çizgi kaldır */
+}
+.categories ul li a:hover {
+  background-color: #575757; /* Fare üzerine gelince renk değişikliği */
+}

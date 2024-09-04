@@ -2,10 +2,14 @@
 <html>
   <head>
     <title>Splendore</title>
+    <link href="fontawesome-free-6.6.0-web/css/all.css" rel="stylesheet" />
     <link rel="shortcut icon" href = images/Splendore.png>
     <link href="css/text.css" rel="stylesheet" />
+    <link href="css/stiller.css" rel="stylesheet" />
+    <link href="css/buttons.css" rel="stylesheet" />
+    <link href="css/categories.css" rel="stylesheet" />
+
     <link rel="stylesheet" href="css/style-woman.css" />
-    <link href="../Splendore/fontawesome-free-6.6.0-web.zip" rel="stylesheet" />
 
     <meta charset="utf-8" />
     <meta
@@ -102,11 +106,25 @@
       <img src="/images/womanSheets6.png" alt="woman" class="one" />
       <img src="/images/womanSheet7.png" alt="woman" class="one" />
     </div>
-    <div class="form"></div>
-    <form name="user" method="get" id="user">
-      Özel promosyonlar, kişiye özel indirimler ve son yenilikler ile ilgili
-      bilgi alın <br />
-      <input type="email" name="mail" id="mail" required />
-    </form>
+    <div class="form">
+      <form name="user" method="get" id="user">
+        <p>
+          <strong>
+            Özel promosyonlar, kişiye özel indirimler ve son yenilikler ile
+            ilgili bilgi alın <br />
+          </strong>
+        </p>
+
+        <input
+          type="email"
+          name="mail"
+          id="mail"
+          required
+          placeholder="xxxxx@gmail.com"
+        />
+        <br />
+        <input type="submit" name="submit" id="submit" value="Gönder" />
+      </form>
+    </div>
   </body>
 </html>
