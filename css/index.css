@@ -3,7 +3,7 @@
   height: 100%;
   display: flex; /* Flexbox kullanarak hizalama */
   flex-wrap: wrap; /* Resimlerin birden fazla satıra geçmesini sağlar */
-  gap: 10px; /* Resimler arasına boşluk ektalar*/
+  gap: 350px; /* Resimler arasına boşluk ektalar*/
   justify-content: center; /* Resimleri or*/
 }
 .main-menu {
